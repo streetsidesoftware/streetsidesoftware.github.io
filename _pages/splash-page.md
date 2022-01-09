@@ -29,12 +29,12 @@ feature_row:
       url: 'https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker'
       btn_label: 'Visual Studio Marketplace'
       btn_class: 'btn--primary'
-    # - image_path: assets/images/escalator.jpg
-    #   title: 'Placeholder 3'
-    #   excerpt: 'This is some sample content that goes here with **Markdown** formatting.'
-    #   url: '#test-link'
-    #   btn_label: 'Read More'
-    #   btn_class: 'btn--primary'
+    - image_path: assets/images/books.jpg
+      title: 'VS Code Extensions'
+      excerpt: 'Language Dictionaries and other useful extensions for VS Code.'
+      url: 'https://marketplace.visualstudio.com/publishers/streetsidesoftware'
+      btn_label: 'Visual Studio Marketplace'
+      btn_class: 'btn--primary'
 ---
 
 {% include feature_row id="intro" type="center" %}
