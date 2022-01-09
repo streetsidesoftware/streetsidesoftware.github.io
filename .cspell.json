@@ -3,6 +3,11 @@
     "dictionaries": [
         "custom-dictionary"
     ],
+    "ignorePaths": [
+        "_raw_assets",
+        "assets/images",
+        "Gemfile.lock"
+    ],
     "dictionaryDefinitions": [
         {
             "name": "custom-dictionary",
