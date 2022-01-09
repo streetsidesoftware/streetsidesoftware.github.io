@@ -3,7 +3,9 @@
     "dictionaries": [
         "custom-dictionary"
     ],
+    "useGitignore": true,
     "ignorePaths": [
+        ".git",
         "_raw_assets",
         "assets/images",
         "Gemfile.lock"
@@ -14,5 +16,8 @@
             "path": "./.cspell/custom-dictionary.txt",
             "addWords": true
         }
+    ],
+    "enableFiletypes": [
+        "ruby"
     ]
 }
