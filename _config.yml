@@ -39,9 +39,11 @@ timezone: Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_database_t
 include:
   - _pages
 exclude:
-  - README.md
-  - package.json
+  - Gemfile
+  - Gemfile.lock
   - node_modules
+  - package.json
+  - README.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -60,7 +62,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
