@@ -1,4 +1,11 @@
-# streetsidesoftware.github.io
+# Street Side Software Site
 
+https://www.streetsidesoftware.com
 
-![image](https://user-images.githubusercontent.com/3740137/135613995-e3aefd56-a30d-4ef9-9b18-b1f5458cc8bb.png)
+## Run locally
+
+```sh
+bundle exec jekyll serve
+# or
+npm run serve
+```
