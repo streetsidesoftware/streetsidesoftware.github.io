@@ -20,6 +20,6 @@ updates:
 
   - package-ecosystem: "bundler"
     # The Gemfile used in for the Jekyll doc site
-    directory: "/docs"
+    directory: "/"
     schedule:
       interval: "daily"
