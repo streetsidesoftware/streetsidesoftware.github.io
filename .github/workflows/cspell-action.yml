@@ -13,7 +13,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
       - name: Spell Check
-        uses: streetsidesoftware/cspell-action@v6.3.0
+        uses: streetsidesoftware/cspell-action@v6.4.0
         with:
           files: "**"
           incremental_files_only: false
