@@ -25,7 +25,7 @@ feature_row:
       btn_class: 'btn--primary'
     - image_path: assets/images/cafe.jpg
       title: 'VS Code Spell Checker'
-      excerpt: 'A popular VS Code extension with over 3 million installs. It improves productivity by spell checking as you type.'
+      excerpt: 'A popular VS Code extension with over 11 million installs. It improves productivity by spell checking as you type.'
       url: 'https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker'
       btn_label: 'Visual Studio Marketplace'
       btn_class: 'btn--primary'
