@@ -7,7 +7,7 @@
     "ignorePaths": [
         ".git",
         "_raw_assets",
-        "assets/images",
+        "docs/assets/images",
         "Gemfile.lock"
     ],
     "dictionaryDefinitions": [
