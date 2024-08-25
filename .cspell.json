@@ -7,6 +7,7 @@
     "ignorePaths": [
         ".git",
         "_raw_assets",
+        "*.svg",
         "docs/assets/images",
         "Gemfile.lock"
     ],

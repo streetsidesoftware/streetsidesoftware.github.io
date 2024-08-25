@@ -1,5 +1,7 @@
 # Custom Dictionary Words
 browserconfig
+callouts
 endunless
 jemoji
 streetsidesoftware
+Untruncated
