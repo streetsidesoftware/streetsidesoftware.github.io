@@ -5,5 +5,8 @@
   "scripts": {
     "serve": "bundle exec jekyll serve",
     "spell-check": "npx cspell --dot \"**\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }

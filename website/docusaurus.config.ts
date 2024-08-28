@@ -82,14 +82,16 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'doc',
+          // type: 'doc',
           docId: 'sponsor',
+          to: '/sponsor',
           label: 'Sponsor',
           position: 'left'
       },
       {
-          type: 'doc',
+          // type: 'doc',
           docId: 'about',
+          to: '/about',
           label: 'About',
           position: 'left'
       },

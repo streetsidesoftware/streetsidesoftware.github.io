@@ -1,5 +1,4 @@
 import Link from '@docusaurus/Link';
-import Button from '@mui/material/Button';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';

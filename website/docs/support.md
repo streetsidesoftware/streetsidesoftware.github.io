@@ -55,6 +55,6 @@ Options:
 
 -   [support@streetsidesoftware.com](mailto:support@streetsidesoftware.com)
 
-
 [^vat]: All rates and prices exclude VAT/BTW.
+
 [^support_hours]: Support hours do NOT accrue month to month.
