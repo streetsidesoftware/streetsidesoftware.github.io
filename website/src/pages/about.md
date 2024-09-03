@@ -1,11 +1,7 @@
 ---
-it: about
+id: about
 title: About
 description: 'About Street Side Software'
-header:
-    overlay_color: '#000'
-    overlay_filter: '0.5'
-    overlay_image: /assets/images/sunrise.jpg
 excerpt: 'Making life easier for software developers around the world.'
 ---
 
@@ -19,7 +15,7 @@ Street Side Software currently maintains a host of open source libraries and app
 
 Years ago I created the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension for VS Code because I wanted to avoid spelling mistakes that detracted from my work. I'm good at many things, but spelling isn't one of them. Since I have worked around many coders, web designers, engineers, and product managers, I know I'm not the only one. My goal was to get things done and not have to worry about spelling.
 
-An early request was to create a command line tool ([CSpell](https://www.npmjs.com/package/cspell)) that could be used outside of the extension as part of the CI/CD process. It has become clear that many others found it useful, since [CSpell](https://www.npmjs.com/package/cspell) has become the defacto spell checker for CI/CD processes. It is used by corporations like Google, Facebook, Microsoft, and Siemens to spell check documentation, source code, and more. It is used by schools, universities, and code academies when accepting coding assignments. With over 11 million installs, the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension has also grown in popularity. Language support has added to include French, German, Spanish, and more, even Esperanto. Which was only possible because the dictionaries were Open Source.
+An early request was to create a command line tool ([CSpell](https://www.npmjs.com/package/cspell)) that could be used outside of the extension as part of the CI/CD process. It has become clear that many others found it useful, since [CSpell](https://www.npmjs.com/package/cspell) has become the defacto spell checker for CI/CD processes. It is used by corporations like Google, Facebook, Microsoft, and Siemens to spell check documentation, source code, and more. It is used by schools, universities, and code academies when accepting coding assignments. With over 11 million installs, the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension has also grown in popularity. Language support has added to include French, German, Spanish, and even Esperanto. Broad language support was only possible because the dictionaries were Open Source.
 
 ## Commitment to Open Source
 
@@ -27,4 +23,8 @@ It was a conscious choice from the beginning to Open Source the spell checker.
 
 ## Commitment to Data Privacy and Security
 
-Made with ❤️ in Holland
+For any security related issues, please see [Support: Security Issues](/support/#security-issues).
+
+---
+
+<p style={{"text-align": "center"}}>Made with ❤️ in Holland</p>
