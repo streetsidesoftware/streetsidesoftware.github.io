@@ -3,9 +3,13 @@
   "description": "Website for Street Side Software",
   "private": true,
   "scripts": {
-    "serve": "bundle exec jekyll serve",
+    "build": "npm run build --workspaces ",
+    "start": "npm run start --workspace=website",
     "spell-check": "npx cspell --dot \"**\""
   },
+  "workspaces": [
+    "website"
+  ],
   "devDependencies": {
     "prettier": "^3.3.3"
   }
