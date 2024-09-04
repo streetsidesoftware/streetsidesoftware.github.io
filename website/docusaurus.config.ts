@@ -161,6 +161,14 @@ const config: Config = {
             darkTheme: prismThemes.dracula,
         },
     } satisfies Preset.ThemeConfig,
+
+    scripts: [
+        {
+            defer: true,
+            'data-domain': 'streetsidesoftware.com',
+            src: 'https://plausible.io/js/script.js',
+        },
+    ],
 }
 
 export default config
