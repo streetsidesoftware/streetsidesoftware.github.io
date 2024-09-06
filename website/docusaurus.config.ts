@@ -154,7 +154,7 @@ const config: Config = {
                 //   ],
                 // },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Street Side Software <img style="height:1em" src="/img/Logo Heart Street Side Software 16x16.png" />`,
+            copyright: `Copyright © 2008 - ${new Date().getFullYear()} Street Side Software <img style="height:1em" src="/img/Logo Heart Street Side Software 16x16.png" />`,
         },
         prism: {
             theme: prismThemes.github,
