@@ -1,1 +1,5 @@
 **/*.mdx
+website/.docusaurus
+website/build
+node_modules
+**/node_modules
