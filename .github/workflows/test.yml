@@ -1,4 +1,4 @@
-name: ' 🧪 Test Build'
+name: ' 🧪 Test - Build Site'
 
 on:
   workflow_dispatch:
@@ -6,6 +6,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'website/**'
+
   # Review gh actions docs if you want to further define triggers, paths, etc
   # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
