@@ -14,4 +14,4 @@ npm run serve
 
 ## Resources
 
--   Images: [500+ Best Code Pictures [HD] | Download Free Images on Unsplash](https://unsplash.com/s/photos/code)
+- Images: [500+ Best Code Pictures [HD] | Download Free Images on Unsplash](https://unsplash.com/s/photos/code)
