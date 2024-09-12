@@ -23,12 +23,12 @@ const FeatureList: FeatureItem[] = [
     buttonText: 'Read More',
   },
   {
-    title: 'VS Code Spell Checker',
+    title: 'Code Spell Checker for VS Code',
     img: <img src={require('@site/static/img/cafe.jpg').default} className={styles.featureImg} alt="Cafe" />,
     imgSrc: require('@site/static/img/cafe.jpg').default,
     description: <>A popular VS Code extension with over 11 million installs. It improves productivity by spell checking as you type.</>,
-    buttonHref: 'https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker',
-    buttonText: 'Visual Studio Marketplace',
+    buttonHref: 'https://streetsidesoftware.com/vscode-spell-checker/',
+    buttonText: 'Code Spell Checker',
   },
   {
     title: 'VS Code Extensions',
