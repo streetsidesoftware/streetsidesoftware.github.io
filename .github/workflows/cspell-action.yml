@@ -16,5 +16,5 @@ jobs:
       - name: Spell Check
         uses: streetsidesoftware/cspell-action@v6.8.1
         with:
-          files: "**"
+          files: '**'
           incremental_files_only: false

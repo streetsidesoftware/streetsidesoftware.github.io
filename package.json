@@ -5,7 +5,9 @@
   "scripts": {
     "build": "npm run build --workspaces ",
     "start": "npm run start --workspace=website",
-    "spell-check": "npx cspell --dot \"**\""
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "spell-check": "npx cspell --dot ."
   },
   "workspaces": [
     "website"
