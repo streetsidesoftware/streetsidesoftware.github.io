@@ -97,14 +97,12 @@ const config: Config = {
           label: 'About',
           position: 'left',
         },
-        // Hide for the moment.
-        // {
-        //     // type: 'doc',
-        //     docId: 'sponsor',
-        //     to: '/sponsor',
-        //     label: 'Sponsor',
-        //     position: 'right',
-        // },
+        {
+          docId: 'sponsor',
+          to: '/sponsor',
+          label: 'Sponsor',
+          position: 'right',
+        },
         {
           href: 'https://github.com/streetsidesoftware',
           label: 'GitHub',
