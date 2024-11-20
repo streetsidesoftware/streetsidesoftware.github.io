@@ -8,6 +8,7 @@
     "lint": "prettier --check .",
     "lint:fix": "prettier --write .",
     "spell-check": "npx cspell --dot .",
+    "update": "npx npm-check-updates --root -ws --interactive",
     "update:packages": "npx npm-check-updates --root -ws --target semver -u && npm i"
   },
   "workspaces": [
