@@ -7,7 +7,8 @@
     "start": "npm run start --workspace=website",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write .",
-    "spell-check": "npx cspell --dot ."
+    "spell-check": "npx cspell --dot .",
+    "update:packages": "npx npm-check-updates --root -ws --target semver -u && npm i"
   },
   "workspaces": [
     "website"

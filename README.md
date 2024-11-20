@@ -2,14 +2,10 @@
 
 https://www.streetsidesoftware.com
 
-This site uses the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
-
 ## Run locally
 
 ```sh
-bundle exec jekyll serve
-# or
-npm run serve
+npm run start
 ```
 
 ## Resources
