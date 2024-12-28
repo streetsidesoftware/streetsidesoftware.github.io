@@ -38,3 +38,20 @@
 /*
  * cspell:ignore Infima
  */
+
+.githubSponsorFrame {
+  width: 100%;
+}
+
+/** In mobile view, reduce the padding */
+@media screen and (max-width: 550px) {
+  .githubSponsorFrame {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .githubSponsorFrame {
+    height: 225px;
+  }
+}
