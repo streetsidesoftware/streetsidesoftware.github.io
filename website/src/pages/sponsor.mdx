@@ -42,16 +42,19 @@ In order to dedicate resources to maintaining and improving the CSpell suite of 
 -   Small Business [€10.00 EUR / month](https://buy.stripe.com/28ocOLenXdCy1oc6oo)
 -   Business Subscription [€100.00 EUR / month](https://buy.stripe.com/8wM01Z0x7cyu5Es9AC)
 
-**GitHub Sponsors**
+**GitHub Sponsor**
 
--   [![GitHub Sponsors](https://img.shields.io/badge/-black?style=social&logo=githubsponsors&label=GitHub%20Sponsor%3A%20Street%20Side%20Software)](https://github.com/sponsors/streetsidesoftware)
+-   [![GitHub Sponsor](https://img.shields.io/badge/-black?style=social&logo=githubsponsors&label=GitHub%20Sponsor%3A%20Street%20Side%20Software)](https://github.com/sponsors/streetsidesoftware)
 
-{buttons.map(buyButtonId => <StripeBuyButton buyButtonId={buyButtonId} />)}
+{buttons.map((buyButtonId, key) => <StripeBuyButton key={key} buyButtonId={buyButtonId} />)}
+
+---
 
 <iframe
     src="https://github.com/sponsors/streetsidesoftware/card"
     title="Sponsor streetsidesoftware"
-    height="225"
-    width="600"
+    width="100%"
     style={{ border: 0 }}
 ></iframe>
+
+---

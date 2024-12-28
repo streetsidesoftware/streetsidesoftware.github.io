@@ -85,20 +85,20 @@ const config: Config = {
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          docId: 'support',
+          id: 'support',
           to: '/support',
           label: 'Support',
           position: 'left',
         },
         {
           // type: 'doc',
-          docId: 'about',
+          id: 'about',
           to: '/about',
           label: 'About',
           position: 'left',
         },
         {
-          docId: 'sponsor',
+          id: 'sponsor',
           to: '/sponsor',
           label: 'Sponsor',
           position: 'right',
