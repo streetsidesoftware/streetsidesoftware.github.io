@@ -55,3 +55,14 @@
     height: 225px;
   }
 }
+
+.stripePricingTable {
+  display: block;
+  width: 100%;
+}
+
+.donationButtons {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
