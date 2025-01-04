@@ -4,10 +4,11 @@ title: 'Sponsor'
 layout: splash
 ---
 
-import { StripeBuyButton } from '@site/src/components/StripeBuyButton';
+import { StripePricingTable } from '@site/src/components/StripePricingTable';
 
 <head>
-    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+    {/* <script async src="https://js.stripe.com/v3/buy-button.js"></script> */}
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 </head>
 
 export const buttons = [
@@ -50,8 +51,7 @@ In order to dedicate resources to maintaining and improving the CSpell suite of 
 
 -   [One Time Donation USD](https://donate.stripe.com/cN201Z4Nn9mi4Ao8wA)
 -   [One Time Donation EUR](https://donate.stripe.com/aEUaGDcfP6a6c2Q9AB)
--   Individual [€5.00 EUR / month](https://buy.stripe.com/3cs5mj6Vvcyu3wk9AD)
--   Small Business [€10.00 EUR / month](https://buy.stripe.com/28ocOLenXdCy1oc6oo)
--   Business Subscription [€100.00 EUR / month](https://buy.stripe.com/8wM01Z0x7cyu5Es9AC)
 
-{buttons.map((buyButtonId, key) => <StripeBuyButton key={key} buyButtonId={buyButtonId} />)}
+{/* {buttons.map((buyButtonId, key) => <StripeBuyButton key={key} buyButtonId={buyButtonId} />)} */}
+
+<StripePricingTable tableId="prctbl_1QdZ0KGrYcG8NVg5zPI9NOgd" />

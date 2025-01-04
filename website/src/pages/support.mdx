@@ -5,9 +5,12 @@ excerpt: 'Making life easier for software developers around the world.'
 ---
 
 import { StripeBuyButton } from '@site/src/components/StripeBuyButton';
+import { StripePricingTable } from '@site/src/components/StripePricingTable';
+
 
 <head>
     <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 </head>
 
 Street Side Software provides consulting services and support. The standard rate is €250/hr[^vat].
@@ -31,29 +34,7 @@ Options:
 
 ## Maintenance Agreements
 
-### Enterprise Maintenance Plan
-
-- €2000/month[^vat]
-- Includes 10 hours of support or feature work.[^support_hours]
-- Email support within 1 business day.
-
-<StripeBuyButton buyButtonId={"buy_btn_1QN9ZfGrYcG8NVg5XifQNZrp"} />
-
-### Standard Maintenance Plan
-
-- €1000/month[^vat]
-- Includes 5 hours of support or feature work.[^support_hours]
-- Email support within 5 business days.
-
-<StripeBuyButton buyButtonId={"buy_btn_1QN9XuGrYcG8NVg5K5ilLJUf"} />
-
-### Basic Maintenance Plan
-
-- €100/month[^vat]
-- Email support within 5 business days.
-- 10% discount on standard support rate.
-
-<StripeBuyButton buyButtonId={"buy_btn_1QN9PfGrYcG8NVg5kW3G1whb"} />
+<StripePricingTable tableId="prctbl_1QdZZpGrYcG8NVg5ZcmTQxdz" />
 
 ## Contact
 
@@ -62,3 +43,7 @@ Options:
 [^vat]: All rates and prices exclude VAT/BTW.
 
 [^support_hours]: Support hours do NOT accrue month to month.
+
+{/*
+    cspell:ignore Qxdz
+ */}

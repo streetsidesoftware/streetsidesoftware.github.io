@@ -10,5 +10,5 @@
       "addWords": true
     }
   ],
-  "enableFiletypes": ["ruby"]
+  "minRandomLength": 22
 }
