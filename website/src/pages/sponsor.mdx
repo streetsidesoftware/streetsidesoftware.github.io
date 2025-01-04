@@ -4,10 +4,11 @@ title: 'Sponsor'
 layout: splash
 ---
 
+import { StripeBuyButton } from '@site/src/components/StripeBuyButton';
 import { StripePricingTable } from '@site/src/components/StripePricingTable';
 
 <head>
-    {/* <script async src="https://js.stripe.com/v3/buy-button.js"></script> */}
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 </head>
 
@@ -33,8 +34,6 @@ Let's start with a few questions:
 In order to dedicate resources to maintaining and improving the CSpell suite of tools, Street Side Software needs your support.
 */}
 
-## Ways to Sponsor
-
 ### GitHub Sponsor
 
 <iframe
@@ -47,11 +46,12 @@ In order to dedicate resources to maintaining and improving the CSpell suite of 
 
 {/* [![GitHub Sponsor](https://img.shields.io/badge/-black?style=social&logo=githubsponsors&label=GitHub%20Sponsor%3A%20Street%20Side%20Software)](https://github.com/sponsors/streetsidesoftware) */}
 
-### Directly to Street Side Software via Stripe
-
--   [One Time Donation USD](https://donate.stripe.com/cN201Z4Nn9mi4Ao8wA)
--   [One Time Donation EUR](https://donate.stripe.com/aEUaGDcfP6a6c2Q9AB)
-
-{/* {buttons.map((buyButtonId, key) => <StripeBuyButton key={key} buyButtonId={buyButtonId} />)} */}
+### Sponsorship
 
 <StripePricingTable tableId="prctbl_1QdZ0KGrYcG8NVg5zPI9NOgd" />
+
+## Donations
+
+<StripeBuyButton buyButtonId="buy_btn_1Qda2TGrYcG8NVg5yXbmQgxA" />
+
+<StripeBuyButton buyButtonId="buy_btn_1PsVVRGrYcG8NVg5wVvjZ3CQ" />
