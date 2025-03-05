@@ -5,7 +5,7 @@ https://www.streetsidesoftware.com
 ## Run locally
 
 ```sh
-npm run start
+pnpm run start
 ```
 
 ## Resources

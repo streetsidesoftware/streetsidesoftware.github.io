@@ -1,0 +1,15 @@
+version: '0.2'
+dictionaries:
+  - custom-dictionary
+useGitignore: true
+ignorePaths:
+  - .git
+  - _raw_assets
+  - '*.svg'
+  - node_modules
+  - pnpm-lock.yaml
+dictionaryDefinitions:
+  - name: custom-dictionary
+    path: ./.cspell/custom-dictionary.txt
+    addWords: true
+minRandomLength: 22
