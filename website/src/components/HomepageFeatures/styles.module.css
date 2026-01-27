@@ -1,8 +1,8 @@
 .features {
+  width: 100%;
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding-bottom: 2rem;
 }
 
 .featureSvg {
@@ -11,6 +11,59 @@
 }
 
 .featureImg {
-  height: 400px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 0.75rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.featureCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+}
+
+.featureList {
+  gap: 0.5rem;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.featureCol > div:first-child {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.featureCol h3,
+.featureCol p {
+  width: 100%;
+  text-align: left;
+}
+
+.featureHeading {
+  font-size: 1.5rem;
+  padding-top: 0.75rem;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .featureList {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .featureCol {
+    width: 100%;
+    max-width: 400px;
+  }
 }
