@@ -40,18 +40,20 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, imgSrc, img, description, buttonHref, buttonText }: FeatureItem) {
+function Feature({ title, imgSrc, img, description, buttonHref, buttonText }: FeatureItem): JSX.Element {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">{img ? img : <img src={imgSrc} className={styles.featureSvg} role="img" />}</div>
-      <div className="padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+    <div className={styles.featureCol}>
+      <div>
+        {img ? img : <img src={imgSrc} className={styles.featureSvg} role="img" />}
+        <Heading as="h3" className={styles.featureHeading}>
+          {title}
+        </Heading>
         <p>{description}</p>
-        <div className={styles.buttons}>
-          <Link href={buttonHref} className="button button--secondary button--lg">
-            {buttonText}
-          </Link>
-        </div>
+      </div>
+      <div className={styles.buttons}>
+        <Link href={buttonHref} className="button button--secondary button--lg">
+          {buttonText}
+        </Link>
       </div>
     </div>
   );
@@ -61,7 +63,7 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className={styles.featureList}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
