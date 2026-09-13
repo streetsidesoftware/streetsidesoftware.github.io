@@ -1,2 +1,25 @@
 packages:
   - website
+
+minimumReleaseAge: 2880 # two days
+minimumReleaseAgeExclude:
+  - '@cspell/dict-*'
+blockExoticSubdeps: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  # - chokidar@4.0.3
+  # - semver@5.7.2
+  - semver@6.3.1
+  - webpack-dev-middleware@7.4.6
+  # - undici-types@6.21.0
+
+allowBuilds:
+  # '@parcel/watcher': false
+  # '@swc/core': true
+  core-js: false
+  esbuild: true
+  # skia-canvas: false
+  # unrs-resolver: true
+
+# cspell:dictionaries npm
+# cspell:ignore webpackbar unrs
