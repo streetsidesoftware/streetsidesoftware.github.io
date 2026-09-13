@@ -18,6 +18,8 @@ jobs:
       - uses: actions/checkout@v6
       - name: Setup Node, PNPM, and Corepack
         uses: streetsidesoftware/actions/public/setup-node-pnpm-corepack@v1
+        with:
+          node-version: 'lts/*'
 
       - name: Install dependencies
         run: pnpm i
