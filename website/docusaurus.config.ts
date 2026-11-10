@@ -20,7 +20,11 @@ const config: Config = {
   deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Force trailing slashes on all URLs for GitHub pages.
   trailingSlash: true,
