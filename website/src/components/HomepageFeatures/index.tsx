@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';

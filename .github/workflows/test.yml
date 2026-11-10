@@ -25,5 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm i
+      - name: Type Check
+        run: pnpm --filter website typecheck
       - name: Test
         run: pnpm t
