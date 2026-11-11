@@ -4314,8 +4314,8 @@ packages:
     resolution: {integrity: sha512-BK87/Qgti3DIcgS2PaCVoteFIkjIFvCJBizZDIVSjdlFNg4Jv+SRqbN2JONb/qQUH4ZFqfXYF+izg15W2HVRvA==}
     engines: {node: '>=4'}
 
-  postcss-selector-parser@7.1.8:
-    resolution: {integrity: sha512-4CrD1SdKVx3bWOXG6Mh5YI9s/NTEgMq4T+O0T4wj2JqGhxbi8BAPc8BJYDVrVOqXBbWGX7YMO3f3ldOSscdCew==}
+  postcss-selector-parser@7.2.0:
+    resolution: {integrity: sha512-Khh/tERVBn0I1499dvBSHY0pWJloMJWUxDsOBM0CCDPAcVZ10Jl2L1qy1f19uEX22spa8Mv7DCdEQJc0cGwBhQ==}
     engines: {node: '>=4'}
 
   postcss-sort-media-queries@5.2.0:
@@ -6226,9 +6226,9 @@ snapshots:
 
   '@csstools/postcss-cascade-layers@5.0.2(postcss@8.5.32)':
     dependencies:
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.8)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.2.0)
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   '@csstools/postcss-color-function-display-p3-linear@1.0.1(postcss@8.5.32)':
     dependencies:
@@ -6334,9 +6334,9 @@ snapshots:
 
   '@csstools/postcss-is-pseudo-class@5.0.3(postcss@8.5.32)':
     dependencies:
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.8)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.2.0)
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   '@csstools/postcss-light-dark-function@2.0.11(postcss@8.5.32)':
     dependencies:
@@ -6438,7 +6438,7 @@ snapshots:
   '@csstools/postcss-scope-pseudo-class@4.0.1(postcss@8.5.32)':
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   '@csstools/postcss-sign-functions@1.1.4(postcss@8.5.32)':
     dependencies:
@@ -6482,13 +6482,13 @@ snapshots:
     dependencies:
       postcss: 8.5.32
 
-  '@csstools/selector-resolve-nested@3.1.0(postcss-selector-parser@7.1.8)':
+  '@csstools/selector-resolve-nested@3.1.0(postcss-selector-parser@7.2.0)':
     dependencies:
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
-  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.1.8)':
+  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.2.0)':
     dependencies:
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   '@csstools/utilities@2.0.0(postcss@8.5.32)':
     dependencies:
@@ -8708,7 +8708,7 @@ snapshots:
   css-blank-pseudo@7.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   css-declaration-sorter@7.4.0(postcss@8.5.32):
     dependencies:
@@ -8716,9 +8716,9 @@ snapshots:
 
   css-has-pseudo@7.0.3(postcss@8.5.32):
     dependencies:
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.8)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.2.0)
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
       postcss-value-parser: 4.2.0
 
   css-loader@6.11.0(webpack@5.112.2(clean-css@5.3.3)(cssnano@6.1.2(postcss@8.5.32))(csso@5.0.5)(html-minifier-terser@7.2.0)(postcss@8.5.32)(svgo@3.3.5)):
@@ -10608,7 +10608,7 @@ snapshots:
   postcss-attribute-case-insensitive@7.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-calc@9.0.1(postcss@8.5.32):
     dependencies:
@@ -10679,12 +10679,12 @@ snapshots:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-dir-pseudo-class@9.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-discard-comments@6.0.2(postcss@8.5.32):
     dependencies:
@@ -10717,12 +10717,12 @@ snapshots:
   postcss-focus-visible@10.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-focus-within@9.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-font-variant@5.0.0(postcss@8.5.32):
     dependencies:
@@ -10814,13 +10814,13 @@ snapshots:
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.32)
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
       postcss-value-parser: 4.2.0
 
   postcss-modules-scope@3.2.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-modules-values@4.0.0(postcss@8.5.32):
     dependencies:
@@ -10829,10 +10829,10 @@ snapshots:
 
   postcss-nesting@13.0.2(postcss@8.5.32):
     dependencies:
-      '@csstools/selector-resolve-nested': 3.1.0(postcss-selector-parser@7.1.8)
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.8)
+      '@csstools/selector-resolve-nested': 3.1.0(postcss-selector-parser@7.2.0)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.2.0)
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-normalize-charset@6.0.2(postcss@8.5.32):
     dependencies:
@@ -10981,7 +10981,7 @@ snapshots:
   postcss-pseudo-class-any-link@10.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-reduce-idents@6.0.3(postcss@8.5.32):
     dependencies:
@@ -11006,13 +11006,13 @@ snapshots:
   postcss-selector-not@8.0.1(postcss@8.5.32):
     dependencies:
       postcss: 8.5.32
-      postcss-selector-parser: 7.1.8
+      postcss-selector-parser: 7.2.0
 
   postcss-selector-parser@6.1.6:
     dependencies:
       util-deprecate: 1.0.2
 
-  postcss-selector-parser@7.1.8:
+  postcss-selector-parser@7.2.0:
     dependencies:
       util-deprecate: 1.0.2
 
